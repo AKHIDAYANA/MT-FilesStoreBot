@@ -49,11 +49,11 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/movieinfinites"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/startono")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("developer", url="https://t.me/luci_chloe")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -120,8 +120,8 @@ async def main(bot: Client, message: Message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("♻️Open Link♻️", url=share_link)],
-                     [InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_Yt"),
-                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/Mo_Tech_Group")]]
+                     [InlineKeyboardButton("🔊Channel", url="https://t.me/movieinfinites"),
+                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/startono")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -340,11 +340,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/startono"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/startono")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("developer", url="https://t.me/luci_chloe")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -395,11 +395,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/movieinfinites"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/luci_chloe")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://t.me/luci_chloe")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
